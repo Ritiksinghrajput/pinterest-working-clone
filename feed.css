@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #262626;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  background-color: beige;
+}
+
+.container {
+  padding-top: 5vh;
+  width: 1400px;
+  margin: auto;
+  columns: 6;
+  background-color: beige;
+  column-gap: 20px;
+}
+.container .box {
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  border-radius: 15px;
+}
+.container .box img {
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+img:hover {
+  opacity: 0.95;
+  box-shadow: 0 0 10px #888888;
+}
+
+.caption {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
+}
